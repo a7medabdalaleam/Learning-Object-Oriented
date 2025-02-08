@@ -5,7 +5,7 @@ using namespace std;
 class Rectangle
 {
 private:
-    int W, H;
+    int W, H; //w is the weight / H is the height 
 
 public:
     Rectangle() : W(0), H(0) // another way for initialization
