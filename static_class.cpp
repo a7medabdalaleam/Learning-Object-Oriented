@@ -3,6 +3,7 @@
 #include <cstring>
 #include <string>
 using namespace std;
+// static means shared between classes
 class student
 {
 private:
