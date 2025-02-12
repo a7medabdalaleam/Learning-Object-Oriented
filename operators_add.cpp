@@ -74,5 +74,4 @@ int main()
     c3.show();
     c3 = c1 / c2; // divide
     c3.show();
-    // Thank you
 }
