@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+// here i have lots of classes every one is called based on its datatype
 template <class t>
 class A_char
 {
@@ -9,6 +10,8 @@ public:
         cout << x << " is not char : " << endl;
     }
 };
+// Template spacialization
+// creating a class to deal with special data type
 template <>
 class A_char<char>
 {
